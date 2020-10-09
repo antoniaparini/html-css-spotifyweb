@@ -1,0 +1,165 @@
+/**RESET**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/**UTILITIES**/
+
+.general-white {
+  color: white;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.general-hover:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/**HEADER**/
+header {
+  width: calc(100% - 250px);
+  height: 90px;
+  background-color: #090909;
+  float: left;
+}
+
+.class-btn {
+  float: right;
+}
+
+header .class-btn button {
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-color: #080808;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 27px;
+  margin-right: 10px;
+  transition: all 0.1s;
+}
+
+header .class-btn button:hover {
+  padding: 12px 35px;
+  border-radius: 40px;
+}
+
+
+
+/**ASIDE**/
+aside {
+  width: 250px;
+  height: calc(100vh - 100px);
+  background-color: #040404;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+aside .container-box img {
+  height: 40px;
+  margin: 20px
+}
+
+.container-box {
+  color: #b4b4b4;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.aside .container-box home {
+  margin-right: 10px;
+  margin-left: 25px;
+  line-height: 1.5;
+}
+
+aside .container-box h4 {
+  margin: 20px 0;
+  margin-left: 26px;
+}
+
+.h4-containerbox{
+  margin:20px 0;
+  margin-left: 26px;
+  color: white;
+}
+.p-containter-box {
+  color:#b4b4b4;
+  display: inline-block;
+}
+
+.content-playlist {
+  display: flex;
+  align-items: baseline;
+  color: #b4b4b4;
+}
+
+.plus-hover {
+  padding: 7px 11px;
+  background-color: #b4b4b4;
+  color: black;
+  margin-left: 26px;
+  margin-right: 10px;
+}
+
+.nomi-playlist{
+  color: #b4b4b4;
+  margin-left: 10px;
+  margin-top: 15px;
+  line-height: 1.9;
+  overflow-y: auto;
+}
+
+.content-bottom {
+  display: flex;
+  align-items: center;
+  color: #b4b4b4;
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+aside .content-bottom i {
+  margin-right: 10px;
+}
+
+.bottom-border {
+  border-bottom: 2px solid #b4b4b4;
+  margin: 0 20px;
+}
+.home {
+  display: inline-block;
+}
+
+.margine {
+  margin: 10px 0;
+}
+
+.plus-hover:hover {
+  background-color: white;
+}
+.p-playlist {
+  margin-right: 10px;
+  margin-left: 25px;
+
+}
